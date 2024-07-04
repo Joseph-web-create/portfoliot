@@ -73,3 +73,36 @@ header{
        font-style: italic;
        font-size: 1.2rem;
       }
+
+      #projects{
+        background-color: gray;
+        color: white;
+        margin-top: -20px;
+        text-align: center;
+        height: 100vh;
+      }
+      
+      .project-tile{
+        padding-top: 90px
+      }
+      
+      #welcome-section hr{
+        width: 40%
+      }
+      
+      img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+      
+      @media (max-width: 28.75em) {
+        .nav {
+          justify-content: center;
+        }
+      
+        .nav-list {
+          margin: 0 1rem;
+        }
+      }
